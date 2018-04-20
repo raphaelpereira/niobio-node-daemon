@@ -29,6 +29,7 @@ const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
 const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 126; // addresses start with "N"
 const size_t   CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 10;
+const size_t   TESTNET_CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW  = 0;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT_V4         = DIFFICULTY_TARGET * 7;
 
@@ -182,6 +183,7 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
 	{ 39319, "2ff445581f4aadf90ef8ebfe5b9ae1227a6c126290152c93afd352338334b23d" },
 	{ 39326, "64f45a501a206d91ad0df84e91d422e54eaa655a7159a87ef3034e487f9f3ea4" },
 	{ 39329, "3fee7fe3ec965ed629ff01af8eebd89c1ef09a221e0a52fe53b32ccd75a4ce04" },
+	{ 39359, "efe94dda8fac610894fffc6a7135bd1869bc827d286fcaaae5e13b94a876bf8a" },
 	{ 39421, "33ed8b5a1e3b925de9b8512e81e2fa57e129b91028c20e43e3bb16ef399d016b" },
 	{ 39500, "035f9be0f7d2cf8fffc55a698e90be74d8885321f4c43468cfdd3aa013e5d094" },
 	{ 41100, "f917db589f0bb85d7538528672e8e5166e222bf3e7086d39ec7999ce7a361915" },
@@ -191,7 +193,8 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
 	{ 47330, "924feb71a2c589718e8c8a922d9cf5e3ad3163441e4c975bbf41e413481342c2" },
 	{ 55796, "57669ca842c749dea8d50eded31f3b7082b9e5482b73fb9ce60aa1d431e49dea" },
 	{ 66568, "d3d2f05745ce8af6e71b190782e560362cbc62571ffce7fb7c4b5bd848e88ea1" },
-	{ 71714, "71af9b2599f0a44cdaa8be0dba5d78f4c23dbb3730d69ee217e6a8f0649f9592" }
+	{ 71714, "71af9b2599f0a44cdaa8be0dba5d78f4c23dbb3730d69ee217e6a8f0649f9592" },
+	{ 76072, "85313bc7fc25455f71ceab7660470b4bb6d22d6c72551f80a55308616d7ec19a" }
 };
 
 } // CryptoNote
